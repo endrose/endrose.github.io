@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+   /* font-size: 20px; */
+}
+
+
+
+/* START DARKMODE */
+#darkmode .switch-sun{
+    color: rgb(236, 92, 9) !important;
+}
+
+#darkmode .switch-moon{
+    color:  #fff;
+
+}
+#darkmode{
+    background: #000;
+    color: #fff;
+}
+
+#darkmode .project .card{
+    box-shadow: 0 0 5px 0 rgb(252, 252, 252);
+    background: rgb(68, 151, 230);
+
+    -webkit-box-shadow: 0 0 5px 0rgb(252, 252, 252);
+
+}
+
+#darkmode .project .card-title{
+    color: #fff;
+
+}
+
+#darkmode .sertifikat .card-title{
+    color: #fff;
+
+}
+
+#darkmode footer .social-icon a{
+    /* color: #ffff; */
+    -webkit-text-fill-color: #fff;
+    align-content: space-around;
+    padding: 0 10px 0 0;
+}
+
+#darkmode .bg-dark{
+    /* min-height: 100px; */
+    box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+    transition: all height .4s;
+    background-color: #fff;
+}
+
+
+#darkmode .sertifikat .card{
+    box-shadow: 0 0 5px 0 rgb(252, 252, 252);
+    background: rgb(68, 151, 230);
+
+    -webkit-box-shadow: 0 0 5px 0rgb(252, 252, 252);
+
+}
+
+#darkmode footer{
+    background-color:rgb(0, 0, 0);
+    /* color: #fff;
+    -webkit-text-fill-color:#fff; */
+}
+
+/* #darkmode footer i, #darkmode footer h6{
+    color: #fff;
+    -webkit-text-fill-color:#fff;
+} */
+
+#darkmode .social-back a{
+    text-decoration: none;
+}
+
+#darkmode .social-back h6{
+    color: #fff;
+}
+
+#darkmode footer .social-icon a:hover{
+    color: rgb(68, 151, 230) !important;
+}
+
+/* END DARKMODE */
+
+.bg-dark{
+    /* min-height: 100px; */
+    box-shadow: 0 0 10px 0 rgb(5, 5, 5);
+    transition: all height .4s;
+}
+
+.about p{
+    line-height: 2.2;
+}
+
+.about .awesome {
+    background: royalblue;
+}
+
+
+.about,
+.sertifikat,
+.project,
+.contact{
+    min-height: 100vh;
+    padding-top: 15%;
+}
+
+
+.sertifikat, 
+.project{
+    padding-top: 5%;
+}
+
+.sertifikat .card-title,
+.project .card-title
+{
+    text-align: center;
+}
+.contact{
+    padding-top: 10%;
+
+}
+
+/* .in-transition {
+    transition: transform 900ms ease;
+  } */
+
+.navbar-brand, 
+.nav-link {
+color: #ffff !important;
+z-index: 999;
+
+}
+
+.nav-link:hover{
+    color: rgb(68, 151, 230) !important;
+
+}
+
+.active{
+    color: rgb(68, 151, 230) !important;
+}
+
+
+#carouselExampleControls .carousel-inner .carousel-item.carousel img{
+    min-height: 100vh;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.text-middle{
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%) translateY(-50%);
+    -ms-transform: translate(-50%) translateY(-50%);
+    text-align: center;
+    background-color: rgb(68, 151, 230);
+    padding: 16px 32px;
+}
+
+.text-middle span{
+    font-size: 20px;
+    color: #fff;
+}
+
+.container:hover .img-thumbnail{
+    opacity: 0.3;
+}
+
+.img-thumbnail{
+    opacity: 1;
+    display: block;
+    /* width: 100%; */
+    min-height: 200px;
+    min-width: 200px;
+    height: auto;
+    transition: 0.3s ease;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+#project .card{
+    box-shadow: 0 0 5px 0 rgb(68, 151, 230);
+
+    -webkit-box-shadow: 0 0 5px 0 rgb(68, 151, 230);
+
+}
+
+#sertifikat .card{
+    box-shadow: 0 0 5px 0 rgb(68, 151, 230);
+
+    -webkit-box-shadow: 0 0 5px 0 rgb(68, 151, 230);
+
+}
+
+#sertifikat .card:hover{
+    box-shadow: 0 0 5px 0 rgb(5, 5, 5);
+
+    -webkit-box-shadow: 0 0 5px 0 rgb(0, 0, 0);
+}
+
+/* START CONTACT */
+#contact .form-message{
+    /* border: rgb(68, 151, 230); */
+    box-shadow: 10px 20px 10px 20px;
+}
+
+#contact input, 
+#contact textarea{
+    width: 250px;
+    border: none;
+}
+
+#contact .image-left{
+    /* min-width: auto fit-content; */
+    max-width: 350px;
+    max-height: 350px;
+}
+
+#contact .contact-img{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:hover .text-middle{
+    opacity: 1;
+}
+
+/* END CONTACT */
+
+/* START FOOTER */
+footer{
+    background-color: rgb(255, 255, 255);
+    
+}
+footer i, footer h6{
+    color: #000;
+
+}
+footer .switch-sun{
+    color: rgb(236, 92, 9) !important;
+}
+
+.social-back a{
+    text-decoration: none;
+}
+
+footer .social-icon a{
+    color: #000;
+    -webkit-text-fill-color:#000;
+    align-content: space-around;
+    padding: 0 10px 0 0;
+}
+
+footer .social-icon a:hover{
+    color: rgb(68, 151, 230);
+}
+
+footer .icon-template .hati{
+    animation: animate-heart 1s infinite;
+    
+}
+footer .icon-template .hati:hover{
+    color: salmon;
+}
+
+footer .theme-switch{
+    /* overflow: hidden; */
+
+    /* overflow-x: hidden; */
+    position: fixed;
+    bottom: 20px;
+    right: 55px;
+    z-index: 99;
+}
+
+@keyframes animate-heart
+    {
+        0%
+        {
+          transform: scale( .75 );
+        }
+        20%
+        {
+          transform: scale( 1 );
+          color: salmon;
+        }
+        40%
+        {
+          transform: scale( .75 );
+        }
+        60%
+        {
+          transform: scale( 1 );
+          color: salmon;
+        }
+        80%
+        {
+          transform: scale( .75 );
+        }
+        100%
+        {
+          transform: scale( .75 );
+        }
+    }
+
+/* END FOOTER */
+
+/* START DISABLE */
+
+*, *::after, *::before {
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-app-region: no-drag;
+	cursor: default;
+}
+/* END DISABLE */
+
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 375px) {
+    .card{
+        width: auto fit-content !important;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .card{
+        width: auto fit-content !important;
+    }
+}
